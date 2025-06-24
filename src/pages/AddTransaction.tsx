@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useFinanceData } from '@/hooks/useFinanceData';
-import NavBar from '@/components/NavBar';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -172,8 +171,6 @@ const AddTransaction = () => {
           </Button>
         </form>
       </div>
-      
-      <NavBar />
     </div>
   );
 };

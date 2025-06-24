@@ -4,6 +4,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavBar from "@/components/NavBar";
 import Index from "./pages/Index";
 import AddTransaction from "./pages/AddTransaction";
 import Goals from "./pages/Goals";
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/stats" element={<Stats />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <NavBar />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

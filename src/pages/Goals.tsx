@@ -1,7 +1,6 @@
 
 import { useState } from 'react';
 import { useFinanceData } from '@/hooks/useFinanceData';
-import NavBar from '@/components/NavBar';
 import SavingsGoalCard from '@/components/SavingsGoalCard';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -114,8 +113,6 @@ const Goals = () => {
           </div>
         )}
       </div>
-      
-      <NavBar />
     </div>
   );
 };

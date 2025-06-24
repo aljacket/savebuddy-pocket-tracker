@@ -2,7 +2,6 @@
 import { useFinanceData } from '@/hooks/useFinanceData';
 import TransactionCard from '@/components/TransactionCard';
 import ChallengeCard from '@/components/ChallengeCard';
-import NavBar from '@/components/NavBar';
 
 const Index = () => {
   const { userName, getMonthlyStats, transactions, challenges } = useFinanceData();
@@ -90,8 +89,6 @@ const Index = () => {
           )}
         </div>
       </div>
-      
-      <NavBar />
     </div>
   );
 };

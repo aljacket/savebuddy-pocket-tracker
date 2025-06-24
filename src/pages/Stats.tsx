@@ -1,6 +1,5 @@
 
 import { useFinanceData } from '@/hooks/useFinanceData';
-import NavBar from '@/components/NavBar';
 import ExpenseChart from '@/components/ExpenseChart';
 import ChallengeCard from '@/components/ChallengeCard';
 
@@ -94,8 +93,6 @@ const Stats = () => {
           ))}
         </div>
       </div>
-      
-      <NavBar />
     </div>
   );
 };
