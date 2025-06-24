@@ -1,0 +1,15 @@
+
+{
+  "appId": "app.lovable.7fa2fed8a1c045d38f0340ded1204e17",
+  "appName": "SaveBuddy",
+  "webDir": "dist",
+  "server": {
+    "url": "https://7fa2fed8-a1c0-45d3-8f03-40ded1204e17.lovableproject.com?forceHideBadge=true",
+    "cleartext": true
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
