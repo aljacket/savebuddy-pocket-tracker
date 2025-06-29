@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Project documentation files (local development only)
+TODO.md
+MEMORY.md
+.cursorrules
