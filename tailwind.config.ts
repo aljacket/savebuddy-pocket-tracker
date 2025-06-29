@@ -1,6 +1,6 @@
+import tailwindcssAnimate from "tailwindcss-animate"
 
-import type { Config } from "tailwindcss";
-
+/** @type {import('tailwindcss').Config} */
 export default {
 	darkMode: ["class"],
 	content: [
@@ -53,21 +53,20 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Colori specifici per SaveBuddy
+				// Custom colors for SaveBuddy
 				savings: {
-					light: '#e8f5e8',
-					DEFAULT: '#10b981',
+					DEFAULT: '#10B981',
+					light: '#D1FAE5',
 					dark: '#047857'
 				},
 				expense: {
-					light: '#fef2f2',
-					DEFAULT: '#ef4444',
-					dark: '#dc2626'
+					DEFAULT: '#EF4444',
+					light: '#FEE2E2',
+					dark: '#DC2626'
 				},
 				progress: {
-					light: '#eff6ff',
-					DEFAULT: '#3b82f6',
-					dark: '#1d4ed8'
+					DEFAULT: '#8B5CF6',
+					light: '#EDE9FE'
 				}
 			},
 			borderRadius: {
@@ -110,5 +109,5 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
-} satisfies Config;
+	plugins: [tailwindcssAnimate],
+}
